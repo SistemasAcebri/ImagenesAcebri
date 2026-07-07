@@ -11,7 +11,7 @@ export const categories = [
 export const mockAssets: ImageAsset[] = [
   {
     id: '1',
-    url: '/public/imagenes/acemax.png',
+    url: './imagenes/acemax.png',
     title: 'Workspace Logo Ideas',
     author: 'Acemax Datacenter',
     tags: ['Logos', 'Acemax'],
@@ -21,7 +21,7 @@ export const mockAssets: ImageAsset[] = [
   },
   {
     id: '2',
-    url: '/public/imagenes/acemaxFB.jpg',
+    url: './imagenes/acemaxFB.jpg',
     title: 'Infraestructura Code',
     author: 'Acemax TI',
     tags: ['Infraestructura'],
@@ -31,7 +31,7 @@ export const mockAssets: ImageAsset[] = [
   },
   {
     id: '3',
-    url: '/public/imagenes/acemaxFB.png',
+    url: './imagenes/acemaxFB.png',
     title: 'Personal Branding',
     author: 'Acemax Mesa de ayuda',
     tags: ['Personal', 'Logos'],
@@ -41,7 +41,7 @@ export const mockAssets: ImageAsset[] = [
   },
   {
     id: '4',
-    url: '/public/imagenes/acemaxsistemas-removebg-preview.png',
+    url: './imagenes/acemaxsistemas-removebg-preview.png',
     title: 'Acemax Workspace',
     author: 'Acemax',
     tags: ['Acemax'],
@@ -51,7 +51,7 @@ export const mockAssets: ImageAsset[] = [
   },
   {
     id: '5',
-    url: '/public/imagenes/acemaxsistemas.png',
+    url: './imagenes/acemaxsistemas.png',
     title: 'Logos App Design',
     author: 'Acemax TI',
     tags: ['Logos'],
@@ -61,7 +61,7 @@ export const mockAssets: ImageAsset[] = [
   },
   {
     id: '6',
-    url: '/public/imagenes/empresa4.webp',
+    url: './imagenes/empresa4.webp',
     title: 'Abstract 3D Logo',
     author: 'Logo',
     tags: ['Logos'],
@@ -71,7 +71,7 @@ export const mockAssets: ImageAsset[] = [
   },
   {
     id: '7',
-    url: '/public/imagenes/Gemini_Generated_Image_8ecbj8ecbj8ecbj8.png',
+    url: './imagenes/Gemini_Generated_Image_8ecbj8ecbj8ecbj8.png',
     title: 'Personal Tech',
     author: 'Acemax',
     tags: ['Personal', 'Acemax'],
@@ -81,7 +81,7 @@ export const mockAssets: ImageAsset[] = [
   },
   {
     id: '8',
-    url: '/public/imagenes/isotipo.webp',
+    url: './imagenes/isotipo.webp',
     title: 'Server Infraestructura',
     author: 'Logo',
     tags: ['Infraestructura'],
@@ -91,7 +91,7 @@ export const mockAssets: ImageAsset[] = [
   },
   {
     id: '9',
-    url: '/public/imagenes/logo.webp',
+    url: './imagenes/logo.webp',
     title: 'Acemax Desk',
     author: 'Logo',
     tags: ['Acemax', 'Personal'],
@@ -101,7 +101,7 @@ export const mockAssets: ImageAsset[] = [
   },
   {
     id: '10',
-    url: '/public/imagenes/logoB.webp',
+    url: './imagenes/logoB.webp',
     title: 'Social Media Logos',
     author: 'Logo',
     tags: ['Logos'],

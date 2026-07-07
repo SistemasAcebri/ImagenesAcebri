@@ -1,0 +1,6 @@
+{
+  "name": "AssetBank",
+  "description": "Repositorio y banco de imágenes para desarrollo web y producción.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { mockAssets, categories } from './data';
 import { ImageAsset } from './types';
 
+
 export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState('Todos');

@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from 'motion/react';
 import { mockAssets, categories } from './data';
 import { ImageAsset } from './types';
 
-
 export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState('Todos');
@@ -149,8 +148,8 @@ function ImageCard({ asset }: { asset: ImageAsset }) {
       />
       
       {/* Hover Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
-        <div className="flex items-center justify-between w-full">
+      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4 pointer-events-none">
+        <div className="flex items-center justify-between w-full pointer-events-auto">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-white font-medium text-xs">
               {asset.author.charAt(0)}

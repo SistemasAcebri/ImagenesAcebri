@@ -108,5 +108,16 @@ export const mockAssets: ImageAsset[] = [
     downloads: 3210,
     likes: 1540,
     aspectRatio: 'portrait',
+  },
+
+  {
+    id: '11',
+    url: import.meta.env.BASE_URL + 'imagenes/logo.png',
+    title: 'Social Media Logos',
+    author: 'Logo PNG',
+    tags: ['Logos'],
+    downloads: 3210,
+    likes: 1540,
+    aspectRatio: 'portrait',
   }
 ];
